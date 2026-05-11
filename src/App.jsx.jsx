@@ -10,7 +10,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 
 const API_URL = "https://cashai-backend-production-22b1.up.railway.app"; // ← Railway URL
 const SUPABASE_URL = "https://hbrdggvsqiqrhfggxdqk.supabase.co";     // ← Supabase URL
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhicmRnZ3ZzcWlxcmhmZ2d4ZHFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY5MjcyNjAsImV4cCI6MjA2MjUwMzI2MH0.your_anon_key";                   // ← Supabase anon key
+const SUPABASE_ANON_KEY = "sb_publishable_bx_lZfrOz3RvMGKfa8R2Mg_bSqXItWn";                   // ← Supabase anon key
 
 /* ─── Supabase REST Auth ───────────────────────────────────────────────────── */
 async function supabaseAuth(action, email, password, fullName) {
